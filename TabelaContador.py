@@ -1,0 +1,62 @@
+print('+--------------------------------+')
+print('| Bem-vindo à programação!.      |')
+print('| [1] Calculadora de salários.   |')
+print('| [2] Tabela de salários (05-23).|')
+print('| [3] Voltar ao menu principal.  |')
+print('+--------------------------------+')
+m = float(int(input('[*] Infome o menu a ser aberto: ' )))
+
+while True:
+    if m == 1:
+        a = int(input('[*] Digite o seu salário de 2005: '))
+        b = int(input('[*] Digite o seu salário de 2010: '))
+        c = b - a
+        if b >= 
+            print('[+] Resultado da diferença dos salários:', 'R$' ,c)
+            m = int(input('[*] Infome outro menu: ' ))
+        else:
+            print('\n')
+            print('----------------------------------------------------')
+            print('[!] Ops, parece que um valor incorreto foi inserido!')
+            print('[!] Porfavor escreva a equação novamente...!')
+            print('----------------------------------------------------')
+            m == 1
+                  
+    elif m == 2:
+        print('\n')
+        print('+----------------------------------------+')
+        print('[$] TABELA DE SALÁRIOS ENTRE 2005-2023 [$]')
+        print('+----------------------------------------+')
+        print('  [ANO]                       [VALOR]     ')
+        print('+----------------------------------------+')
+        print('[$] 2023:                  R$ 1.302,00 [$]')
+        print('[$] 2022:                  R$ 1.212,00 [$]')
+        print('[$] 2021:                  R$ 1.100,00 [$]')
+        print('[$] 2020:                  R$ 1.045,00 [$]')
+        print('[$] 2019:                  R$ 998,00   [$]')
+        print('[$] 2018:                  R$ 954,00   [$]')
+        print('[$] 2017:                  R$ 937,00   [$]')
+        print('[$] 2016:                  R$ 880,00   [$]')
+        print('[$] 2015:                  R$ 788,00   [$]')
+        print('[$] 2014:                  R$ 724,00   [$]')
+        print('[$] 2013:                  R$ 678,00   [$]')
+        print('[$] 2012:                  R$ 622,00   [$]')
+        print('[$] 2011:                  R$ 545,00   [$]')
+        print('[$] 2010:                  R$ 510,00   [$]')
+        print('[$] 2009:                  R$ 465,00   [$]')
+        print('[$] 2008:                  R$ 415,00   [$]')
+        print('[$] 2007:                  R$ 380,00   [$]')
+        print('[$] 2006:                  R$ 350,00   [$]')
+        print('[$] 2005:                  R$ 300,00   [$]')
+        print('+----------------------------------------+')
+        m = int(input('[!] Infome outro menu: ' ))
+
+    elif m == 3:
+        print('\n')
+        print('+--------------------------------+')
+        print('| Bem-vindo à programação!.      |')
+        print('| [1] Calculadora de salários.   |')
+        print('| [2] Tabela de salários (05-23).|')
+        print('| [3] Voltar ao menu principal.  |')
+        print('+--------------------------------+')
+        m = int(input('[!] Infome o menu a ser aberto: ' ))         
